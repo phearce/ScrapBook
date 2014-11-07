@@ -1,6 +1,8 @@
 #!/bin/bash
 ppath="/c/-projects/-github"
-cd $USERPROFILE/Source/Repos
+cd $USERPROFILE
+cd Source
+cd Repos
 unset PROJECTS
 PROJECTS+=(".")
 i=0
